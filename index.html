@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rent Solver</h1>
+        <div id="input-form">
+            <label for="numPeople">Number of people:</label>
+            <input type="number" id="numPeople" min="1">
+            <button onclick="generateInputs()">Submit</button>
+        </div>
+        <ul id="details-form"></ul>
+        <div id="total-rent-form" style="display: none;">
+            <label for="totalRent">Total Monthly Rent:</label>
+            <input type="number" id="totalRent">
+            <button onclick="calculateRent()">Calculate Rent</button>
+        </div>
+        <div id="address-form" style="display: none;">
+            <label for="address">Enter Home Address:</label>
+            <input type="text" id="address">
+            <button onclick="fetchBlueprint()">Fetch Blueprint</button>
+        </div>
+        <div id="blueprint-selection" style="display: none;">
+            <h2>Select Rooms for Housemates</h2>
+            <div id="blueprint"></div>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
