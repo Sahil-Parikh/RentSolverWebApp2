@@ -1,20 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+html, body {
+    height: 100%;
     margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Ensure vertical scroll is enabled */
 }
 
 .container {
-    background-color: #fff;
+    max-width: 600px; /* or your preferred width */
+    margin: 20px auto; /* Centering the container */
     padding: 20px;
-    border-radius: 10px;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+    border-radius: 10px;
+    overflow-y: auto; /* Allows scrolling within the container */
+    height: auto; /* Allows the container to expand with content */
 }
 
 h1 {
@@ -62,4 +61,9 @@ ul li {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+#details-form {
+    max-height: 400px; /* or adjust based on your preference */
+    overflow-y: auto; /* Enables scrolling within the form */
 }
