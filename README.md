@@ -1,0 +1,1 @@
+This web application divides rent amongst housemates based on personal square footage per person. A second option is in progress where one can input an address and information regarding square footage will be found from online and used.
