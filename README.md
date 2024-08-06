@@ -1,7 +1,7 @@
 # Rent Solver
 Rent Solver is a web-based application that calculates the rent distribution among housemates based on the square footage of their respective bedrooms and bathrooms. Users manually input the required information to determine each housemate's share of the rent.
 
-###Features
+### Features
 Dynamic Input Generation: Allows users to enter the number of housemates and generates input fields for each housemate's name, bedroom, and bathroom square footage.
 
 Rent Calculation: Distributes the total rent based on the manually input square footage of each housemate's bedroom and bathroom.
