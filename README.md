@@ -9,6 +9,7 @@ Rent Calculation: Distributes the total rent based on the manually input square 
 Responsive Design: The interface is user-friendly and adapts to various device sizes.
 
 Technologies Used
+
 HTML/CSS: For the structure and styling of the web page.
 JavaScript: To handle user interactions, input generation, and rent calculation.
 
